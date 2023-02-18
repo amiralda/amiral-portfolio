@@ -36,9 +36,20 @@ header {
   text-decoration: none;
 }
 
-.nav-bar {
+.Navbar {
   width: 18px;
   height: 12px;
+}
+
+.icon {
+  width: 100%;
+  height: 3%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  padding-left: 0%;
 }
 
 .menu {
@@ -47,7 +58,7 @@ header {
 }
 
 section {
-  background: url(images/header-shapes\ mobile@2x.svg);
+  background: url(img/header-shapes\ mobile@2x.svg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -89,13 +100,3 @@ section {
   line-height: 24px;
 }
 
-.icons {
-  width: 100%;
-  height: 3%;
-  margin-bottom: 5px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  list-style: none;
-  padding-left: 0%;
-}
