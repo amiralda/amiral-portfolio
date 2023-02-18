@@ -5,6 +5,15 @@ body {
   margin: 0;
 }
 
+.icon li {
+  margin-right: 5%;
+}
+
+.icon li a {
+  flex: none;
+  flex-grow: 0;
+}
+
 header {
   height: auto;
   width: 100%;
@@ -89,13 +98,4 @@ section {
   align-items: center;
   list-style: none;
   padding-left: 0%;
-}
-
-.icons li {
-  margin-right: 5%;
-}
-
-.icons li a {
-  flex: none;
-  flex-grow: 0;
 }
