@@ -158,7 +158,7 @@ button {
   background-color: #fff;
   border-bottom-left-radius: 80px;
   gap: 12px;
-  background-image: url(req/header-shapes.png);
+  background-image: url(img/header-shapes.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -168,7 +168,7 @@ button {
 .Grid-boxes {
   display: grid;
   grid-template-rows: auto auto auto auto auto;
-  padding: 114px 25px 31px 25px;
+  padding: 70px 25px 31px 25px;
   row-gap: 90px;
 }
 
@@ -184,7 +184,7 @@ button {
 }
 
 .box-image {
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
 }
 
@@ -463,7 +463,7 @@ button {
 }
 
 .belowtext ul {
-  width: 10%;
+  width: 100%;
   height: 3%;
   margin-bottom: 5px;
   display: flex;
