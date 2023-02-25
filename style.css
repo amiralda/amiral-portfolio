@@ -167,7 +167,7 @@ button {
 
 
 .headline {
-  background-color: #fff;
+  background-color: #e5e5e5;
   border-bottom-left-radius: 80px;
   gap: 12px;
   background-image: url(img/header-shapes.png);
@@ -180,14 +180,14 @@ button {
 .Parent {
   display: grid;
   grid-template-rows: auto auto auto auto auto;
-  padding: 70px 25px 31px 25px;
+  padding: 50px 25px 31px 25px;
   row-gap: 90px;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 18px;
   gap: 14px;
   background: #fff;
