@@ -93,6 +93,10 @@ This is not a coding complexe project, do not have deployment.
 - Twitter: [@amiralda](https://twitter.com/amiralda)
 - LinkedIn: [@dany-augustin](https://linkedin.com/in/dany-augustin)
 
+  **Glauber Bannwart**
+
+- GitHub: [@cancelei](https://github.com/cancelei)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,6 +112,9 @@ This is not a coding complexe project, do not have deployment.
 
 
 ## 🤝 Contributing <a name="contributing"></a>
+
+**Glauber Bannwart**
+- @cancelei](https://github.com/cancelei)
 
 Contributions, issues, and feature requests are welcome!
 
