@@ -76,7 +76,7 @@ header {
   text-align: center;
 }
 
-.section {
+section {
   background: url(img/header-shapes\ mobile@2x.svg);
   height: 40vh;
   background-repeat: no-repeat;
@@ -120,7 +120,7 @@ header {
   line-height: 24px;
 }
 
-.button {
+button {
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -331,9 +331,9 @@ header {
   text-decoration: none;
   text-align: center;
   cursor: pointer;
-  /* order: 3; */
+  order: 3;
   color: #396df2;
-  margin-top: -10px;
+  margin: 0;
 }
 
 .preview:hover {
@@ -364,7 +364,7 @@ header {
   padding: 100;
   gap: 12px;
   flex: none;
-  /* order: 0; */
+  order: 0;
   flex-grow: 0;
 }
 
@@ -391,9 +391,9 @@ header {
   display: flex;
   flex-direction: column;
   width: 327px;
-  height: 100vh;
-  /* flex: none; */
-  /* order: 1; */
+  height: 464.15px;
+  flex: none;
+  order: 1;
   flex-grow: 0;
 }
 
@@ -472,45 +472,4 @@ header {
 
 .separator {
   border-bottom: 2px solid #dfe1e6;
-}
-
-.form {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  /* width: fit-content; */
-  width: 100vw;
-  flex-grow: 1;
-  margin: auto;
-}
-
-.textsmall {
-  align-items: center;
-  margin: -5px 2px 4px 5px;
-  justify-self: stretch;
-  width: auto;
-  height: fit-content;
-}
-
-.textemail {
-  align-items: center;
-  margin: -5px 4px 4px 5px;
-  justify-self: stretch;
-  width: auto;
-  height: fit-content;
-}
-
-.textlarge {
-  align-items: center;
-  margin: 10px 4px 4px 5px;
-  justify-self: stretch;
-  width: auto;
-  height: fit-content;
-}
-
-.btn-end {
-  align-items: center;
-  margin: 15px 4px 4px -5px;
-  justify-self: stretch;
 }
