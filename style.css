@@ -78,12 +78,13 @@ header {
 
 section {
   background: url(img/header-shapes\ mobile@2x.svg);
-  height: 40vh;
+  /* height: 40vh; */
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding: 10px 25px;
 
 }
+
 
 .Perso {
   width: 327;
@@ -473,3 +474,4 @@ button {
 .separator {
   border-bottom: 2px solid #dfe1e6;
 }
+
