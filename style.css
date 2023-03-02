@@ -65,13 +65,15 @@ header {
   0% {
     transform: translateY(-5%);
   }
+
   50% {
     transform: translateY(5%);
   }
+
   100% {
     transform: translateY(-20%);
     transform: translateX(-5%);
-    opacity: 0;
+    opacity: 0.5;
   }
 
 }
@@ -116,8 +118,8 @@ section {
 }
 
 .bio {
-  width: 327;
-  height: 146;
+  /* width: 327;
+  height: 150; */
   font-weight: 400;
   line-height: 24px;
   font-size: 16px;
@@ -195,8 +197,8 @@ button {
 }
 
 .Parent {
-  display: grid;
-  grid-template-rows: auto auto auto auto auto;
+  /* display: grid;
+  grid-template-rows: auto auto auto auto auto; */
   padding: 50px 25px 31px 25px;
   row-gap: 90px;
 }
@@ -210,6 +212,7 @@ button {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 18px;
+  margin-top: 25px;
 }
 
 .image {
@@ -420,7 +423,7 @@ button {
   justify-content: space-between;
   width: 327px;
   height: 72px;
-  margin-left: 24px;
+  /* margin-left: 24px; */
 }
 
 .language-title {
@@ -467,8 +470,8 @@ button {
   background: #f7f7f9;
   border-radius: 8px;
   padding: 5px;
-  margin: 10px -50px;
-  width: 350px;
+  margin: 5px 0px;
+  /* width: 350px; */
   height: 72px;
 }
 
@@ -492,50 +495,27 @@ button {
 }
 
 .contact {
-  display: 80px;
-  flex-direction: column;
+  /* display: 80px;
+  flex-direction: column; */
   margin-top: 100px;
   background: url(img/contact-form-imga.png), #828adb;
   background-size: 100% 135%;
   background-repeat: no-repeat;
-  flex-direction: column;
-  align-items: center;
+  /* width: 327;
+  height: 150; */
+  /* flex-direction: column;
+  align-items: center; */
   border-top-left-radius: 80px;
-  padding: 5px 25px;
+  /* padding: 5px 25px; */
 }
 
-#name {
-  width: 300px;
-  height: fit-content;
-  margin: 5px 45px 5px 45px;
-  padding: 12px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-}
-
-#email {
-  width: 300px;
-  height: fit-content;
-  margin: 5px 5px 5px 45px;
-  padding: 12px;
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-}
-
+#name,
+#email,
 #message {
-  width: 300px;
-  height: 100px;
-  margin: 5px 45px 5px 45px;
+  width: calc(100% - 24px);
+  height: fit-content;
+  /* margin: 5px 45px 5px 45px; */
+  margin: 5px auto;
   padding: 12px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -546,10 +526,26 @@ button {
   color: #344563;
 }
 
-#button {
-  width: 300px;
-  height: 48px;
-  margin: 5px 80px 200px 10px;
+/* #message {
+  width: fit-content;
+  height: 150px;
+  padding: 12px;
+  /* margin: 5px 45px 5px 45px; */
+margin: 5px auto;
+border: 1px solid #6070ff;
+border-radius: 8px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #344563;
+}
+
+*/ #button {
+  /* width: 300px;
+  height: 48px; */
+  /* margin: 5px 80px 200px 10px; */
+  /* margin: 5px 80px 150px 10px; */
   padding: 12px;
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -607,7 +603,7 @@ button {
 #contact-button {
   padding: 13px;
   gap: 10px;
-  left: 100;
+  /* left: 100; */
   width: auto;
   height: 40px;
   border: 1px solid #6070ff;
@@ -621,7 +617,7 @@ button {
   cursor: pointer;
   order: 3;
   color: #2b59cf;
-  margin: 5px 45px 30px 45px;
+  /* margin: 5px 45px 30px 45px; */
 }
 
 #contact-button:hover {
