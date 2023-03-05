@@ -219,7 +219,7 @@ button {
   max-width: 800px;
   margin: auto;
   padding: 10px;
-  gap: 14px;
+  gap: 24px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -581,6 +581,8 @@ button {
   cursor: pointer;
   order: 3;
   color: #2b59cf;
+  margin-bottom: 20px;
+  margin-left: 350px;
 }
 
 #contact-button:hover {
