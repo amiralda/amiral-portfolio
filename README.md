@@ -45,10 +45,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- N/A
+## 🚀 Live Demo 
+- GitHub Page: [Amiral Portfolio](https://amiralda.github.io/amiral-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +78,8 @@ N/A
 
 ### Deployment
  
-This is not a coding complexe project, do not have deployment.
+This is the link to my preoject preview host on Github pages.
+- Deployment link: [Amiral Portfolio](https://amiralda.github.io/amiral-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
