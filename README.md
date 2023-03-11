@@ -50,6 +50,8 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+- Presentation Video on Loom: https://www.loom.com/share/bde29f3b9cf245bba6e7004e671e35c9 
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
