@@ -99,7 +99,7 @@ body {
   position: absolute;
   right: 50px;
   top: 50px;
-  z-index: ;
+  z-index: 10;
   cursor: pointer;
   width: 20px;
   height: 20px;
