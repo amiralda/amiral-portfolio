@@ -213,6 +213,51 @@ button {
   font-size: 17px;
 }
 
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border: 1px solid rgb(240, 236, 236);
+  border-radius: 10px;
+  z-index: 10;
+  background-color: #ffffffb1;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 200ms ease-in-out;
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(31, 22, 22);
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-btn {
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  background-color: none;
+  outline: none;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+
 #Headline-Title {
   width: 327px;
   height: 150px;
@@ -647,7 +692,6 @@ button {
   max-width: 800px;
   margin: auto;
 }
-
 
 /*Media querry */
 
