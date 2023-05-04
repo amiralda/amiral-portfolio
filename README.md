@@ -93,6 +93,13 @@ This is not a coding complexe project, do not have deployment.
 - Twitter: [@amiralda](https://twitter.com/amiralda)
 - LinkedIn: [@dany-augustin](https://linkedin.com/in/dany-augustin)
 
+>Collaborator 
+
+👤 **Andrea Manuel**
+
+- GitHub: [@AndreaM2429](https://github.com/AndreaM2429)
+- Twitter: [@twitter](https://twitter.com/AndreaManuelOr1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/andrea-manuel-2b075026a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
