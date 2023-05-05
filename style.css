@@ -480,7 +480,15 @@ button {
   margin-right: 10px;
 }
 
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
 
 .skills-parent {
   display: flex;
