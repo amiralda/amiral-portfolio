@@ -3,13 +3,11 @@
 // const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 // const close = document.getElementsByClassName('closeMenu')[0]
 // const menuLinks = document.querySelectorAll('.navbar-links a');
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlayModal= document.getElementsByClassName('overlay-modal')[0]
+const openModalButtons = document.querySelectorAll("[data-modal-target]");
+const closeModalButtons = document.querySelectorAll("[data-close-button]");
+const overlayModal = document.getElementsByClassName("overlay-modal")[0];
 // const menuButton = document.getElementsByClassName('menu-btn')[0]
 // const menuDesktop = document.getElementsByClassName('menu-desktop')[0]
-
-
 
 // function click() {
 //   overLay.classList.toggle('active');
@@ -39,40 +37,37 @@ const overlayModal= document.getElementsByClassName('overlay-modal')[0]
 
 //   })
 
-
-
 // // Add event listener to each menu link
 
 // menuButton.addEventListener('click', () => {
 //     menuDesktop.classList.toggle('active')
 // })
 
-openModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const modal = document.querySelector(button.dataset.modalTarget)
-        openModal(modal)
-    })
-})
+openModalButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const modal = document.querySelector(button.dataset.modalTarget);
+    openModal(modal);
+  });
+});
 
-closModalButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const modal = button.closest('.modal')
-        closeModal(modal)
-    })
-})
+closeModalButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const modal = button.closest(".modal");
+    closeModal(modal);
+  });
+});
 
 function openModal(modal) {
-    if (modal == null) return
-    modal.classList.add('active')
-    overlayModal.classList.add('active')
+  if (modal == null) return;
+  modal.classList.add("active");
+  overlayModal.classList.add("active");
 }
 
 function closeModal(modal) {
-    if (modal == null) return
-    modal.classList.remove('active')
-    overlayModal.classList.remove('active')
+  if (modal == null) return;
+  modal.classList.remove("active");
+  overlayModal.classList.remove("active");
 }
-
 
 // overLay.addEventListener('click', () => {
 //     const modals = document.querySelectorAll('.modal.active')
@@ -87,7 +82,6 @@ function closeModal(modal) {
 //         closeModal(modal)
 //     })
 // })
-
 
 // function closeModal(modal) {
 //     if (modal == null) return
