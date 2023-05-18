@@ -114,6 +114,13 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+
+👤 **Contributer Glauber Bannwart**
+
+- GitHub: [@cancelei](https://github.com/cancelei)
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
