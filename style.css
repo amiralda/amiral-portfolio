@@ -123,9 +123,11 @@
   0% {
     transform: translateY(-5%);
   }
+
   50% {
     transform: translateY(5%);
   }
+
   100% {
     transform: translateY(-20%);
     opacity: 0.5;
@@ -148,7 +150,6 @@ section {
 }
 
 .section-hero {
-  //height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,7 +166,6 @@ section {
 }
 
 .Perso {
-  //width: 90px;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700px;
@@ -209,6 +209,18 @@ button {
   background-color: transparent;
   letter-spacing: 0.03rem;
   font-size: 17px;
+}
+
+.title {
+  font-style: normol;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .modal {
@@ -324,18 +336,6 @@ button {
 .image {
   width: 100%;
   border-radius: 10px;
-}
-
-.title {
-  font-style: normol;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 44px;
-  color: #172b4d;
-  margin: 0;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .client {
@@ -707,6 +707,7 @@ textarea {
 }
 
 /*Media querry */
+
 @media screen and (max-width: 769px) {
   .section-hero {
     height: 90vh;
@@ -745,13 +746,6 @@ textarea {
   .overlay li {
     flex-direction: row;
     align-items: start;
-  }
-
-  .overlay ul {
-    padding: 3px;
-  }
-
-  .overlay li {
     list-style: none;
   }
 
