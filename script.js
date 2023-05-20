@@ -1,7 +1,7 @@
 const toogleButton = document.getElementsByClassName("toogle-button")[0];
 const overLay = document.getElementsByClassName("overlay")[0];
 const navbarLinks = document.getElementsByClassName("navbar-links")[0];
-const close = document.getElementsByClassName("closeMenu")[0];
+// const close = document.getElementsByClassName('closeMenu')[0];
 // const scrollscreen = document.body('fixed-screen')[0]
 // const menuLinks = document.querySelectorAll('.navbar-links a');
 // const openModalButtons = document.querySelectorAll('[data-modal-target]')
