@@ -56,8 +56,10 @@ const cls = document.createElement("img");
 cls.classList.add("closeMenu");
 cls.setAttribute("src", "img/close.svg");
 cls.setAttribute("alt", "close");
-cls.addEventListener("click", () => {});
-closeValue();
+cls.addEventListener("click", () => {
+  closeValue();
+});
+
 overLay.appendChild(cls);
 // Add event listener to each menu link
 // menuButton.addEventListener('click', () => {
