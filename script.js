@@ -58,9 +58,9 @@ cls.setAttribute("src", "img/close.svg");
 cls.setAttribute("alt", "close");
 cls.addEventListener("click", () => {
   closeValue();
+  overLay.appendChild(cls);
 });
 
-overLay.appendChild(cls);
 // Add event listener to each menu link
 // menuButton.addEventListener('click', () => {
 //     menuDesktop.classList.toggle('active')
