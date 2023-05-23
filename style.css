@@ -58,6 +58,17 @@
   background-color: #11256f12;
 }
 
+.toogle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
 .toogle-button .bar {
   height: 3px;
   width: 100%;
