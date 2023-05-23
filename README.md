@@ -115,9 +115,9 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 
-👤 **Contributer Glauber Bannwart**
+👤 **Contributer Tatou Roberto**
 
-- GitHub: [@cancelei](https://github.com/cancelei)
+- GitHub: [@tatouroberto](https://github.com/tatouroberto)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
