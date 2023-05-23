@@ -11,32 +11,32 @@ const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
 // eslint-disable-next-line no-unused-vars
 function click() {
-	overLay.classList.toggle("active");
-	navbarLinks.classList.toggle("active");
+  overLay.classList.toggle("active");
+  navbarLinks.classList.toggle("active");
 }
 
 toogleButton.addEventListener("click", () => {
-	overLay.classList.toggle("active");
-	navbarLinks.classList.toggle("active");
-	document.body.classList.toggle("fixed-screen");
+  overLay.classList.toggle("active");
+  navbarLinks.classList.toggle("active");
+  document.body.classList.toggle("fixed-screen");
 });
 
 const closeValue = () => {
-	navbarLinks.classList.remove("active");
-	document.body.classList.remove("fixed-screen");
-	overLay.classList.remove("active");
+  navbarLinks.classList.remove("active");
+  document.body.classList.remove("fixed-screen");
+  overLay.classList.remove("active");
 };
 
 const item = (i, content, link) => {
-	let x = `a${i}`;
-	x = document.createElement("a");
-	x.setAttribute("href", `#${link}`);
-	x.textContent = content;
-	x.addEventListener("click", () => {
-		closeValue();
-	});
+  let x = `a${i}`;
+  x = document.createElement("a");
+  x.setAttribute("href", `#${link}`);
+  x.textContent = content;
+  x.addEventListener("click", () => {
+    closeValue();
+  });
 
-	return x;
+  return x;
 };
 
 const ul = document.createElement("ul");
@@ -57,7 +57,7 @@ cls.classList.add("closeMenu");
 cls.setAttribute("src", "img/close.svg");
 cls.setAttribute("alt", "close");
 cls.addEventListener("click", () => {
-	closeValue();
+  closeValue();
 });
 
 overLay.appendChild(cls);
