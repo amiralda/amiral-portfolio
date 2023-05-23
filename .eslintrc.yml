@@ -10,7 +10,7 @@ rules:
   indent:
     - error
     - tab
-  linebreak-style:
+  linebreak-style: 0,
     - error
     - windows
   quotes:
