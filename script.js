@@ -8,20 +8,25 @@ const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 // const closeModalButtons = document.querySelectorAll('[data-close-button]')
 // const menuButton = document.getElementsByClassName('menu-btn')[0]
 // const menuDesktop = document.getElementsByClassName('menu-desktop')[0]
+
+// eslint-disable-next-line no-unused-vars
 function click() {
   overLay.classList.toggle("active");
   navbarLinks.classList.toggle("active");
 }
+
 toogleButton.addEventListener("click", () => {
   overLay.classList.toggle("active");
   navbarLinks.classList.toggle("active");
   document.body.classList.toggle("fixed-screen");
 });
+
 const closeValue = () => {
   navbarLinks.classList.remove("active");
   document.body.classList.remove("fixed-screen");
   overLay.classList.remove("active");
 };
+
 const item = (i, content, link) => {
   let x = `a${i}`;
   x = document.createElement("a");
@@ -30,12 +35,15 @@ const item = (i, content, link) => {
   x.addEventListener("click", () => {
     closeValue();
   });
+
   return x;
 };
+
 const ul = document.createElement("ul");
 const li0 = document.createElement("li");
 const li1 = document.createElement("li");
 const li2 = document.createElement("li");
+
 li0.appendChild(item(0, "Portfolio", "work-preview"));
 li1.appendChild(item(1, "About", "about"));
 li2.appendChild(item(2, "Contact", "contact"));
@@ -51,6 +59,7 @@ cls.setAttribute("alt", "close");
 cls.addEventListener("click", () => {
   closeValue();
 });
+
 overLay.appendChild(cls);
 // Add event listener to each menu link
 // menuButton.addEventListener('click', () => {
