@@ -4,10 +4,8 @@ const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
 // eslint-disable-next-line no-unused-vars
 
-function click() {
-  overLay.classList.toggle("active");
-  navbarLinks.classList.toggle("active");
-}
+overLay.classList.toggle("active");
+navbarLinks.classList.toggle("active");
 
 toogleButton.addEventListener("click", () => {
   overLay.classList.toggle("active");
