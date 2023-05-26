@@ -1,14 +1,13 @@
-/* *,
 *::after,
 *::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
 
 body {
   font-family: "Poppins", sans-serif;
-  padding: .2rem;
+  padding: 0.2rem;
   margin: 0;
 }
 
@@ -16,12 +15,11 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  scale: (0);
-  transform: 200ms ease-in-out;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
   border: 1px solid black;
   border-radius: 10px;
-  z-index: 1;
+  z-index: 10;
   background-color: white;
   width: 500px;
   max-width: 80%;
@@ -44,8 +42,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
-.modal-header .close-modal-btn {
+.modal-header .close-button {
   cursor: pointer;
   border: none;
   outline: none;
@@ -58,19 +55,21 @@ body {
   padding: 10px 15px;
 }
 
-.overlay-modal {
-  position: absolute;
+#Overlay-modal {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   pointer-events: none;
 }
 
-.overlay-modal.active {
+#Overlay-modal.active {
   opacity: 1;
   pointer-events: all;
 }
@@ -103,7 +102,7 @@ body {
 
 .Logo {
   font-size: 1.5rem;
-  margin: .5rem;
+  margin: 0.5rem;
 }
 
 .navbar-links ul {
@@ -114,7 +113,6 @@ body {
 
 .navbar-links li {
   list-style: none;
-
 }
 
 .navbar-links li a {
@@ -130,7 +128,7 @@ body {
 
 .toogle-button {
   position: absolute;
-  top: .75rem;
+  top: 0.75rem;
   right: 1rem;
   display: none;
   flex-direction: column;
@@ -159,7 +157,6 @@ body {
   opacity: 0.75;
 }
 
-
 .fixed-screen {
   overflow: hidden;
 }
@@ -177,7 +174,6 @@ body {
   background: none;
   border: none;
 }
-
 
 .icon-bio {
   width: 100%;
@@ -239,7 +235,7 @@ section {
 .Perso {
   width: 90px;
   height: 150px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700px;
   line-height: 52px;
@@ -506,7 +502,7 @@ button {
   color: #344563;
   margin: 0;
   text-align: justify;
-  padding: .1rem;
+  padding: 0.1rem;
 }
 
 .title-about {
@@ -707,7 +703,6 @@ button {
   max-width: 800px;
   margin: auto;
 }
-
 
 /*Media querry */
 
