@@ -1,63 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dany's Portfolio</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dany's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
-    </head>
-    <body>
-        <nav class="navbar">
-            <div class="Logo">My Logo</div>
-            <a href="#" class="toogle-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-                <div class="overlay">
-                    <ul>
-                        <li><a href="#work-preview">Portfolio</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <img class="closeMenu" src="img/close.svg" alt="close">
-                </div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#work-preview">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                
-                </div>
-            </div>
-        </nav>   
-        <section class="section-hero">
-            <div class ="hero">
-                <h1 class=Perso">I'm Amiral<br> I am glad to meet you!</h1>
-                <p class="bio"> I’m a software developer! I can help you build a product, feature or website Look throughsome of my work and experience!
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="Logo">My Logo</div>
+        <a href="#" class="toogle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="overlay">
+            <ul>
+                <li><a href="#work-preview">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <img class="closeMenu" src="img/close.svg" alt="close">
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#work-preview">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+        </div>
+        </div>
+    </nav>
+    <section class="section-hero">
+        <div class="hero">
+            <h1 class=Perso">I'm Amiral<br> I am glad to meet you!</h1>
+            <p class="bio"> I’m a software developer! I can help you build a product, feature or website Look
+                throughsome of my work and experience!
                 If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
 
-                <h2 class="connect">LET'S CONNECT</h2>
-                <ul class="icon-bio">
-                    <li><a href="https://twitter.com/amiraldany"><img src="img/twitter.svg" alt="twitter-icon"></a></li>
-                    <li><a href="https://www.linkedin.com/in/dany-augustin/"><img src="img/linkedin.svg" alt="linkedin-icon"></a></li>
-                    <li><a href="https://github.com/amiralda"><img src="img/github.svg" alt="github-icon"></a></li>
-                    <li><a href="https://medium.com/@danyaugustin1982"><img src="img/medium.svg" alt="medium-icon"></a></li>
-                    <li><a href="https://angel.co/u/dany-augustin"><img src="img/angellist.svg" alt="angellist-icon"></a></li>
-                </ul>
-                </div>
-        </section>
-                                                                                                                    
-        <!-- Section Work Preview -->
-                                                                                                                    
-        <section class="w-full" id="work-preview">
-            <div class="Parent w-full">
+            <h2 class="connect">LET'S CONNECT</h2>
+            <ul class="icon-bio">
+                <li><a href="https://twitter.com/amiraldany"><img src="img/twitter.svg" alt="twitter-icon"></a></li>
+                <li><a href="https://www.linkedin.com/in/dany-augustin/"><img src="img/linkedin.svg"
+                            alt="linkedin-icon"></a></li>
+                <li><a href="https://github.com/amiralda"><img src="img/github.svg" alt="github-icon"></a></li>
+                <li><a href="https://medium.com/@danyaugustin1982"><img src="img/medium.svg" alt="medium-icon"></a></li>
+                <li><a href="https://angel.co/u/dany-augustin"><img src="img/angellist.svg" alt="angellist-icon"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Section Work Preview -->
+
+    <section class="w-full" id="work-preview">
+        <div class="Parent w-full">
             <article class="box w-full">
                 <img class="image w-full" src="img/tonic.png" alt="tonic">
                 <div class="box-info">
@@ -69,173 +74,182 @@
                         <img class="dot" src="img/dot.png" alt="dot">
                         <a href="#" class="year">2015</a>
                     </div>
-                    <p class="details">A daily selection Of privately personalized reads; no accounts or sign-ups required
+                    <p class="details">A daily selection Of privately personalized reads; no accounts or sign-ups
+                        required
                     </p>
                     <ul class="stack">
                         <li class="style">html</li>
                         <li class="style">css</li>
                         <li class="style">javascript</li>
                     </ul>
-                        <button data-modal-target="#modal" class="preview">See Project</button>
-                            <div class='modal' id="modal">
-                                <div class="modal-header">
-                                    <div class="modal-title">Tonic</div>
-                        <button data-close-button class="close-button">&times;</button>
-                            </div>
-                            <div class="modal-body">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse fugiat dolores perferendis ad explicabo! Cum
-                                dicta quas esse beatae tempore, suscipit ipsum, eveniet in ea nostrum, id dolores blanditiis aliquam porro
-                                consequuntur modi reprehenderit obcaecati rem laboriosam. Repellendus libero, esse expedita, dolores ipsa
-                                laborum fugiat quibusdam in, rerum corporis nisi iure. Suscipit nobis nulla reiciendis! Quidem rem aut
-                                distinctio nostrum excepturi necessitatibus tenetur voluptatum sit harum, animi veritatis dolorum voluptates
-                                earum dolorem quibusdam autem enim? Ipsum qui fugiat laboriosam facilis.
-                            </div>
-                                    </div>
-                                </div>
-                    <div class="active" id="overlay-modal"></div>
-                </div>
-            </article>
-            <article class="box">
-                <img class="image" src="img/multi.png" alt="multi">
-                <div class="box-info">
-                    <h2 class="title">Multi-Post Stories</h2>
-                    <div class="description">
-                        <a href="#" class="client">CANOPY</a>
-                        <img class="dot" src="img/dot.png" alt="dot">
-                        <a href="#" class="tech">BACK END DEV</a>
-                        <img class="dot" src="img/dot.png" alt="dot">
-                        <a href="#" class="year">2015</a>
+                    <button data-modal-target="#modal" class="preview">See Project</button>
+                    <div class='modal' id="modal">
+                        <div class="modal-header">
+                            <div class="modal-title">Tonic</div>
+                            <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse fugiat dolores perferendis ad
+                            explicabo! Cum
+                            dicta quas esse beatae tempore, suscipit ipsum, eveniet in ea nostrum, id dolores blanditiis
+                            aliquam porro
+                            consequuntur modi reprehenderit obcaecati rem laboriosam. Repellendus libero, esse expedita,
+                            dolores ipsa
+                            laborum fugiat quibusdam in, rerum corporis nisi iure. Suscipit nobis nulla reiciendis!
+                            Quidem rem aut
+                            distinctio nostrum excepturi necessitatibus tenetur voluptatum sit harum, animi veritatis
+                            dolorum voluptates
+                            earum dolorem quibusdam autem enim? Ipsum qui fugiat laboriosam facilis.
+                        </div>
                     </div>
-                    <p class="details">A daily selection Of privately personalized reads; no accounts or sign-ups required
-                    </p>
-                    <ul class="stack">
-                        <li class="style">html</li>
-                        <li class="style">css</li>
-                        <li class="style">javascript</li>
-                    </ul>
-                    <a href="#" class="preview">See Project</a>
                 </div>
-            </article>
-            <article class="box">
-                <img class="image" src="img/tonic_2.png" alt="tonic">
-                <div class="box-info">
-                    <h2 class="title">Tonic</h2>
-                    <div class="description">
-                        <a href="#" class="client">CANOPY</a>
-                        <img class="dot" src="img/dot.png" alt="dot">
-                        <a href="#" class="tech">BACK END DEV</a>
-                        <img class="dot" src="img/dot.png" alt="dot">
-                        <a href="#" class="year">2015</a>
-                    </div>
-                    <p class="details">A daily selection Of privately personalized reads; no accounts or sign-ups required
-                    </p>
-                    <ul class="stack">
-                        <li class="style">html</li>
-                        <li class="style">css</li>
-                        <li class="style">javascript</li>
-                    </ul>
-                    <a href="#" class="preview">See Project</a>
+                <div class="active" id="overlay-modal"></div>
+        </div>
+        </article>
+        <article class="box">
+            <img class="image" src="img/multi.png" alt="multi">
+            <div class="box-info">
+                <h2 class="title">Multi-Post Stories</h2>
+                <div class="description">
+                    <a href="#" class="client">CANOPY</a>
+                    <img class="dot" src="img/dot.png" alt="dot">
+                    <a href="#" class="tech">BACK END DEV</a>
+                    <img class="dot" src="img/dot.png" alt="dot">
+                    <a href="#" class="year">2015</a>
                 </div>
-            </article>
-            <article class="box">
-                <img class="image" src="img/multi_2.png" alt="multi">
-                <div class="box-info">
-                    <h2 class="title">Multi-Post Stories</h2>
-                    <div class="description">
-                        <a href="#" class="client">CANOPY</a>
-                        <img class="dot" src="img/dot.png" alt="dot">
-                        <a href="#" class="tech">BACK END DEV</a>
-                        <img class="dot" src="img/dot.png" alt="dot">
-                        <a href="#" class="year">2015</a>
-                    </div>
-                    <p class="details">A daily selection Of privately personalized reads; no accounts or sign-ups required
-                    </p>
-                    <ul class="stack">
-                        <li class="style">html</li>
-                        <li class="style">css</li>
-                        <li class="style">javascript</li>
-                    </ul>
-                    <a href="#" class="preview">See Project</a>
+                <p class="details">A daily selection Of privately personalized reads; no accounts or sign-ups required
+                </p>
+                <ul class="stack">
+                    <li class="style">html</li>
+                    <li class="style">css</li>
+                    <li class="style">javascript</li>
+                </ul>
+                <a href="#" class="preview">See Project</a>
+            </div>
+        </article>
+        <article class="box">
+            <img class="image" src="img/tonic_2.png" alt="tonic">
+            <div class="box-info">
+                <h2 class="title">Tonic</h2>
+                <div class="description">
+                    <a href="#" class="client">CANOPY</a>
+                    <img class="dot" src="img/dot.png" alt="dot">
+                    <a href="#" class="tech">BACK END DEV</a>
+                    <img class="dot" src="img/dot.png" alt="dot">
+                    <a href="#" class="year">2015</a>
                 </div>
-            </article>
-            </div>                                
-        </section>
-        <section>
-            <div class="About-container">
-                <div class="about" id="about">
-                    <h2 class="title-about">About </br> Myself</h2>
-                    <p class="text">Hello I’m a software developer! I can help you build a product , feature or website Look
-                        through
-                        some of my work and experience! If you like what you see and have a project you need coded, don’t
-                        hestiate
-                        to contact me.</p>
-                    <h3 class="connect-about">LET'S CONNECT</h3>
-                    <ul class="icon-about">
-                        <li><a href="https://github.com/amiralda"><img src="img/github.svg" alt="github-icon"></a></li>
-                        <li><a href="https://www.linkedin.com/danyaugustin/"><img src="img/linkedin.svg"
-                                    alt="linkedin-icon"></a></li>
-                        <li><a href="https://angel.co/u/dany-augustin"><img src="img/angellist.svg" alt="angellist-icon"></a>
-                        </li>
-                        <li><a href="www.twitter.com/amiralda"><img src="img/twitter.svg" alt="twitter-icon"></a></li>
-                        <li><a href="https://www.medium.com/amiralda/"><img src="img/medium.svg" alt="medium-icon"></a></li>
-                    </ul>
-                    <a href="#" class="preview">Get my resume</a>
+                <p class="details">A daily selection Of privately personalized reads; no accounts or sign-ups required
+                </p>
+                <ul class="stack">
+                    <li class="style">html</li>
+                    <li class="style">css</li>
+                    <li class="style">javascript</li>
+                </ul>
+                <a href="#" class="preview">See Project</a>
+            </div>
+        </article>
+        <article class="box">
+            <img class="image" src="img/multi_2.png" alt="multi">
+            <div class="box-info">
+                <h2 class="title">Multi-Post Stories</h2>
+                <div class="description">
+                    <a href="#" class="client">CANOPY</a>
+                    <img class="dot" src="img/dot.png" alt="dot">
+                    <a href="#" class="tech">BACK END DEV</a>
+                    <img class="dot" src="img/dot.png" alt="dot">
+                    <a href="#" class="year">2015</a>
                 </div>
-                                               
-              <!-- Section Language Skills -->
-                                               
-                <ul class="skills">
-                    <div>
-                        <li class="languages">
-                            <h3 class="language-title">Languages</h3>
-                            <i class="arrow down"></i>
-                    </div>
-                    <ul class="language-description" ;">
-                        <li class="skills-parent">
-                            <img class="language-icon" src="img/js.png" alt="javascript">
-                            <p class="name">Javascript</p>
-                        </li>
-                        <li class="skills-parent">
-                            <img class="language-icon" src="img/html.png" alt="html">
-                            <p class="name">HTML</p>
-                        </li>
-                        <li class="skills-parent">
-                            <img class="language-icon" src="img/css.png" alt="css">
-                            <p class="name">CSS</p>
-                        </li>
-                    </ul>
+                <p class="details">A daily selection Of privately personalized reads; no accounts or sign-ups required
+                </p>
+                <ul class="stack">
+                    <li class="style">html</li>
+                    <li class="style">css</li>
+                    <li class="style">javascript</li>
+                </ul>
+                <a href="#" class="preview">See Project</a>
+            </div>
+        </article>
+        </div>
+    </section>
+    <section>
+        <div class="About-container">
+            <div class="about" id="about">
+                <h2 class="title-about">About </br> Myself</h2>
+                <p class="text">Hello I’m a software developer! I can help you build a product , feature or website Look
+                    through
+                    some of my work and experience! If you like what you see and have a project you need coded, don’t
+                    hestiate
+                    to contact me.</p>
+                <h3 class="connect-about">LET'S CONNECT</h3>
+                <ul class="icon-about">
+                    <li><a href="https://github.com/amiralda"><img src="img/github.svg" alt="github-icon"></a></li>
+                    <li><a href="https://www.linkedin.com/danyaugustin/"><img src="img/linkedin.svg"
+                                alt="linkedin-icon"></a></li>
+                    <li><a href="https://angel.co/u/dany-augustin"><img src="img/angellist.svg"
+                                alt="angellist-icon"></a>
                     </li>
-                    <li class="languages separator">
-                        <h3 class="language-title">Frameworks</h3>
-                        <i class="arrow right"></i>
+                    <li><a href="www.twitter.com/amiralda"><img src="img/twitter.svg" alt="twitter-icon"></a></li>
+                    <li><a href="https://www.medium.com/amiralda/"><img src="img/medium.svg" alt="medium-icon"></a></li>
+                </ul>
+                <a href="#" class="preview">Get my resume</a>
+            </div>
+
+            <!-- Section Language Skills -->
+
+            <ul class="skills">
+                <div>
+                    <li class="languages">
+                        <h3 class="language-title">Languages</h3>
+                        <i class="arrow down"></i>
+                </div>
+                <ul class="language-description" ;">
+                    <li class="skills-parent">
+                        <img class="language-icon" src="img/js.png" alt="javascript">
+                        <p class="name">Javascript</p>
                     </li>
-                    <li class="languages separator">
-                        <h3 class="language-title">Skills</h3>
-                        <i class="arrow right"></i>
+                    <li class="skills-parent">
+                        <img class="language-icon" src="img/html.png" alt="html">
+                        <p class="name">HTML</p>
                     </li>
-                    <li class="languages separator">
-                        <h3 class="language-title"></h3>
+                    <li class="skills-parent">
+                        <img class="language-icon" src="img/css.png" alt="css">
+                        <p class="name">CSS</p>
                     </li>
                 </ul>
-            </div>
-        </section>
+                </li>
+                <li class="languages separator">
+                    <h3 class="language-title">Frameworks</h3>
+                    <i class="arrow right"></i>
+                </li>
+                <li class="languages separator">
+                    <h3 class="language-title">Skills</h3>
+                    <i class="arrow right"></i>
+                </li>
+                <li class="languages separator">
+                    <h3 class="language-title"></h3>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-<!-- Section Contact Form -->
+    <!-- Section Contact Form -->
 
-        <section class="contact" id="contact">
-            <div class="contact-container">
+    <section class="contact" id="contact">
+        <div class="contact-container">
             <h2 class="title-contact">Contact me</h2>
-            <p class="text-contact">If you have an application you are interested in developing, a feature that you need built or a
+            <p class="text-contact">If you have an application you are interested in developing, a feature that you need
+                built or a
                 project that needs coding. I’d love to help with it </p>
             <form action="https://formspree.io/f/mwkjbodb" method="POST">
                 <input type="text" name="name" id="name" placeholder="Name" maxlength="30" required>
                 <input type="email" name="email" id="email" placeholder="Email" required>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here" maxlength="500"
-                    required></textarea> 
-                <button type="submit"id="contact-button">Get in touch</button>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here"
+                    maxlength="500" required></textarea>
+                <button type="submit" id="contact-button">Get in touch</button>
             </form>
-            </div>
-        </section>
-        
-    </body>
+        </div>
+    </section>
+
+</body>
+
 </html>
