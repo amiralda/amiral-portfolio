@@ -75,19 +75,6 @@
   border-radius: 10px;
 }
 
-.overlay {
-  background-color: #6070ff;
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 3;
-  opacity: 0.95;
-  backdrop-filter: blur(10px);
-}
-
 .fixed-screen {
   overflow: hidden;
 }
