@@ -45,12 +45,12 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-
-- N/A
+## 🚀 Live Demo 
+- GitHub Page: [Amiral Portfolio](https://amiralda.github.io/amiral-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+- Presentation Video on Loom: https://www.loom.com/share/bde29f3b9cf245bba6e7004e671e35c9 
 
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -60,15 +60,18 @@ To get a local copy up and running, follow these steps, clone from the repo
 
 ### Prerequisites
 
-No prerequit require to run this project.
+- Will need to have skills in HTML, CSS and a entry level in Javascript to collaborate on this project.
 
 ### Setup
 
-N/A
+- To run this project you will need to setup a work enviroment with any IDe or code editor, but VS Code is recomended.
+- Have a internet browser install on you computer, chrome is recomended.
+- You need a good internet connection
 
 ### Install
 
-Do not have file to Install on this project.
+- Do not have file to Install on this project to run it.
+- But will need to install all required in the setup.
 
 ### Usage
 
@@ -76,11 +79,12 @@ N/A
 
 ### Run tests
 
-N/A
+- No test need or is able to run on this project.
 
 ### Deployment
  
-This is not a coding complexe project, do not have deployment.
+This is the link to my preoject preview host on Github pages.
+- Deployment link: [Amiral Portfolio](https://amiralda.github.io/amiral-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,8 +110,6 @@ This is not a coding complexe project, do not have deployment.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- **Javascript**
 - **images**
 - **aminations**
 
@@ -119,6 +121,12 @@ This is not a coding complexe project, do not have deployment.
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+
+👤 **Contributer Tatou Roberto**
+
+- GitHub: [@tatouroberto](https://github.com/tatouroberto)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
