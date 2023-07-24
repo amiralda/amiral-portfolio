@@ -119,9 +119,9 @@ li {
 }
 
 .card__canopy-header {
-  display: flex;
+  display: inline-flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: baseline;
 }
 
 .card__canopy-title {
@@ -259,7 +259,7 @@ li {
 
   .card__canopy-list li {
     font-family: Poppins, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     width: 15rem;
     color: #6b778c;
     font-weight: 400;

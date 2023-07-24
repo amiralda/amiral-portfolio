@@ -166,6 +166,7 @@ body {
 .bio {
   display: grid;
   height: 100%;
+  // width: 80%;
   font-weight: 400px;
   line-height: 24px;
   font-size: 16px;
@@ -725,10 +726,12 @@ html {
   border-bottom-left-radius: 6rem;
   display: flex;
   flex-direction: column;
-  padding: 16rem 20rem;
+  padding: 10rem 20rem;
+  margin: 10rem 0 10rem 0;
   height: 100%;
+  // width: 50%;
   left: 2.4rem;
-  // top: 27.6rem;
+  top: 27.6rem;
 }
 
 .info {
