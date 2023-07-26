@@ -481,13 +481,13 @@ button {
 }
 
 .down {
-  transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .right {
-  transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 .skills-parent {
@@ -726,8 +726,7 @@ html {
   border-bottom-left-radius: 6rem;
   display: flex;
   flex-direction: column;
-  padding: 10rem 20rem;
-  margin: 10rem 0 10rem 0;
+  padding: 16rem 10rem;
   height: 100%;
   // width: 50%;
   left: 2.4rem;
@@ -1281,7 +1280,7 @@ html {
 }
 
 /* Media Queries */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 667px) {
   header {
     padding: 1.5% 9%;
     position: fixed;
