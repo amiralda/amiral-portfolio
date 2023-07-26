@@ -5,14 +5,15 @@ const projects = [
     client: "FACE",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "./img/projects/Snapshoot_Portfolio_1.png",
+    image: "./img/Snapshoot_Portfolio_1.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://template.com",
     sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
     projectCover: "./img/Snapshoot_Portfolio_1.svg",
     fullDescription: `
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
-          `,
+            Facebook 360, a good products Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia <br> soluta dolorum neque velit.<br>
+      <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
+       `,
     canopy: ["Full Stack DEV", 2023],
   },
   {
@@ -20,13 +21,14 @@ const projects = [
     client: "Uber",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "./img/projects/Snapshoot_Portfolio_2.png",
+    image: "./img/Snapshoot_Portfolio_2.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://example.com",
     sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
     projectCover: "./img/Snapshoot_Portfolio_4.png",
     fullDescription: `
-              Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups.
+              Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit.<br>
+      <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
           `,
     canopy: ["Lead Developer", 2022],
   },
@@ -41,9 +43,8 @@ const projects = [
     sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
     projectCover: "./img/Snapshoot_Portfolio_3.png",
     fullDescription: `
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.<br>
-      <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
-          
+              Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit.<br>
+      <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.   
       `,
     canopy: ["Backend DEV", 2023],
   },
@@ -52,14 +53,15 @@ const projects = [
     client: "CANOPY",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "./img/projects/Snapshoot_Portfolio_4.png",
+    image: "./img/Snapshoot_Portfolio_4.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://template.com",
     sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
     projectCover: "./img/Snapshoot_Portfolio_4.svg",
     fullDescription: `
-              Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups.
-          `,
+              Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit.<br>
+      <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.   
+      `,
     canopy: ["Backend DEV", 2022],
   },
 ];
@@ -89,7 +91,7 @@ function openPopup(index) {
                   </ul>
               </div>
   
-              <img src="./img/Snapshoot_Portfolio_1.svg" alt="" class="popup__img">
+              <img src= ${projects[index].image} alt="" class="popup__img">
   
               <div class="popup__details">
                   <p class="popup__description">

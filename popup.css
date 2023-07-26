@@ -287,14 +287,14 @@ li {
   gap: 2rem;
   overflow: hidden;
   overflow-wrap: break-word;
-  width: 1156px;
-  height: 1163px;
+  width: 900px;
+  height: 750px;
   flex-shrink: 0;
 }
 
 .popup__img {
-  width: 1108px;
-  height: 200px;
+  width: 1156px;
+  height: 1163px;
   flex-shrink: 0;
 }
 
