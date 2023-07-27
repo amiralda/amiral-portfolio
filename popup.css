@@ -294,7 +294,6 @@ li {
     border: 2px solid #d0d9d4;
     border-radius: 24px;
     margin: 2%;
-    // overflow: hidden;
   }
 
   .card:nth-child(2n) {
@@ -321,7 +320,6 @@ li {
     flex-direction: column;
     justify-content: flex-start;
     padding: 1rem;
-    // box-sizing: border-box;
   }
 
   .card__text {
