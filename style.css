@@ -276,17 +276,6 @@ button {
   flex-grow: 0;
 }
 
-.client {
-  height: 14px;
-  font-style: normal;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 15px;
-  line-height: 16px;
-  margin: 0;
-  color: #344563;
-}
-
 .tech {
   font-weight: 600;
   font-size: 14px;
@@ -627,12 +616,10 @@ button {
   margin: auto;
 }
 
-/*Media querry */
-
 @media screen and (max-width: 769px) {
   .section-hero {
     height: auto;
-    padding: 0rem 1rem 2rem 1rem;
+    padding: 0 1rem 2rem 1rem;
     background-color: #e5e5e5;
   }
 
@@ -712,8 +699,8 @@ button {
 
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
 html {
-  /* 62.5% of 16px = 10px */
   font-size: 50%;
 }
 
@@ -737,25 +724,10 @@ html {
   height: 50rem;
 }
 
-.info {
-  margin-top: -5rem;
-  width: 32.7rem;
-  height: 16.7rem;
-  font-size: 1.6rem;
-}
-
 .social-media {
   width: 22.5rem;
   height: 3.4rem;
   padding-top: 1rem;
-}
-
-.connect {
-  margin-top: 1rem;
-  font-size: 1.6rem;
-  color: #6070ff;
-  width: 12.7rem;
-  height: 2.4rem;
 }
 
 .social-media li {
@@ -982,10 +954,10 @@ html {
   font-style: normal;
   font-size: 4rem;
   font-weight: 700;
+  font-family: "Poppins", sans-serif;
   line-height: 5.2rem;
   width: 32.7rem;
   height: 3.5rem;
-  font-family: "Poppins";
   color: #172b4d;
 }
 
@@ -1001,6 +973,7 @@ html {
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
   line-height: 2.4rem;
   padding-top: 2rem;
   color: #344563;
@@ -1088,37 +1061,6 @@ html {
   background-color: #6070ff;
   color: #fff;
   border: 1px solid #fff;
-}
-
-.languages {
-  height: 24px;
-  left: 12px;
-  right: 78px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #000;
-  margin: 0 8%;
-  list-style: none;
-  background-color: #fff;
-}
-
-.skills {
-  flex-wrap: wrap;
-  min-height: 54px;
-  padding-left: 24px;
-  padding-right: 35px;
-  padding-bottom: 20px;
-  justify-content: space-between;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  letter-spacing: 0;
-  text-align: left;
 }
 
 .languages-container {
@@ -1329,6 +1271,7 @@ html {
     margin-top: 16rem;
     margin-left: 12rem;
   }
+
   .info {
     margin-top: -3rem;
     width: 52.7rem;
@@ -1360,6 +1303,7 @@ html {
     height: 5.6rem;
     margin-top: 2rem;
   }
+  
   .card-container {
     display: flex;
     flex-direction: row;
@@ -1432,6 +1376,7 @@ html {
     font-size: 4rem;
     margin-top: -1rem;
   }
+  
   .desk-info {
     font-size: 1.6rem;
     width: 46.7rem;
@@ -1480,32 +1425,6 @@ html {
     padding-top: 1.2rem;
   }
 
-  .desktop-about-skills {
-    display: flex;
-    flex-direction: row;
-    padding: 9%;
-    column-gap: 0.5rem;
-    gap: 45rem;
-  }
-
-  .social-media {
-    width: 22.5rem;
-    height: 2.4rem;
-  }
-
-  /* Contact form */
-
-  #contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  #contact-container h2 {
-    height: 6.2rem;
-  }
-
   .white h2 {
     width: 47rem;
   }
@@ -1520,6 +1439,17 @@ html {
   .input-div {
     width: 40vw;
     margin-left: 5rem;
+  }
+
+  #contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #contact-container h2 {
+    height: 6.2rem;
   }
 }
 
