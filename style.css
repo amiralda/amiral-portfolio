@@ -535,12 +535,12 @@ button {
 }
 
 .down {
-   -webkit-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .right {
-    -webkit-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
