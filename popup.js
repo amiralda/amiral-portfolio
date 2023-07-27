@@ -1,83 +1,83 @@
 // Define the project data
 const projects = [
-  {
-    name: "FACEBOOK 360",
-    client: "FACE",
-    description:
+	{
+		name: "FACEBOOK 360",
+		client: "FACE",
+		description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "./img/Snapshoot_Portfolio_1.png",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://template.com",
-    sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
-    projectCover: "./img/Snapshoot_Portfolio_1.svg",
-    fullDescription: `
+		image: "./img/Snapshoot_Portfolio_1.png",
+		technologies: ["HTML", "CSS", "JavaScript"],
+		liveLink: "https://template.com",
+		sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
+		projectCover: "./img/Snapshoot_Portfolio_1.svg",
+		fullDescription: `
             Facebook 360, a good products Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia <br> soluta dolorum neque velit.<br>
       <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
        `,
-    canopy: ["Full Stack DEV", 2023],
-  },
-  {
-    name: "Uber Navigation",
-    client: "Uber",
-    description:
+		canopy: ["Full Stack DEV", 2023],
+	},
+	{
+		name: "Uber Navigation",
+		client: "Uber",
+		description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
 
-    image: "./img/Snapshoot_Portfolio_2.png",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://example.com",
-    sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
-    projectCover: "./img/Snapshoot_Portfolio_4.png",
-    fullDescription: `
+		image: "./img/Snapshoot_Portfolio_2.png",
+		technologies: ["HTML", "CSS", "JavaScript"],
+		liveLink: "https://example.com",
+		sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
+		projectCover: "./img/Snapshoot_Portfolio_4.png",
+		fullDescription: `
               Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit.<br>
       <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.
           `,
-    canopy: ["Lead Developer", 2022],
-  },
-  {
-    name: "Tonic",
-    client: "CANOPY",
-    description:
+		canopy: ["Lead Developer", 2022],
+	},
+	{
+		name: "Tonic",
+		client: "CANOPY",
+		description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "./img/Snapshoot_Portfolio_3.png",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://example.com",
-    sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
-    projectCover: "./img/Snapshoot_Portfolio_3.png",
-    fullDescription: `
+		image: "./img/Snapshoot_Portfolio_3.png",
+		technologies: ["HTML", "CSS", "JavaScript"],
+		liveLink: "https://example.com",
+		sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
+		projectCover: "./img/Snapshoot_Portfolio_3.png",
+		fullDescription: `
               Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit.<br>
       <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.   
       `,
-    canopy: ["Backend DEV", 2023],
-  },
-  {
-    name: "Multi-Post",
-    client: "CANOPY",
-    description:
+		canopy: ["Backend DEV", 2023],
+	},
+	{
+		name: "Multi-Post",
+		client: "CANOPY",
+		description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
-    image: "./img/Snapshoot_Portfolio_4.png",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://template.com",
-    sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
-    projectCover: "./img/Snapshoot_Portfolio_4.svg",
-    fullDescription: `
+		image: "./img/Snapshoot_Portfolio_4.png",
+		technologies: ["HTML", "CSS", "JavaScript"],
+		liveLink: "https://template.com",
+		sourceLink: "https://github.com/amiralda/amiral-portfolio.git",
+		projectCover: "./img/Snapshoot_Portfolio_4.svg",
+		fullDescription: `
               Multi-Post A daily selection of privately personalized reads; no accounts or sign-ups required, no accounts or sign-ups. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit.<br>
       <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illum tempore aliquam similique aperiam officia soluta dolorum neque velit aspernatur odit libero animi quod deserunt praesentium accusantium possimus ad iste sed ratione, aut vel repellendus obcaecati quia.   
       `,
-    canopy: ["Backend DEV", 2022],
-  },
+		canopy: ["Backend DEV", 2022],
+	},
 ];
 
 function openPopup(index) {
-  const section = document.querySelector(".works-card");
-  const overlay = document.querySelector(".overlay");
-  const technologiesList = projects[index].technologies
-    .map((tech) => `<li>${tech}</li>`)
-    .join("");
-  const canopyList = projects[index].canopy
-    .map((elem) => `<li>${elem}</li>`)
-    .join("");
+	const section = document.querySelector(".works-card");
+	const overlay = document.querySelector(".overlay");
+	const technologiesList = projects[index].technologies
+		.map((tech) => `<li>${tech}</li>`)
+		.join("");
+	const canopyList = projects[index].canopy
+		.map((elem) => `<li>${elem}</li>`)
+		.join("");
 
-  const popupHtml = `
+	const popupHtml = `
           <div class="popup">
   
               <h3 class="popup__name">${projects[index].name}</h3>
@@ -115,31 +115,31 @@ function openPopup(index) {
           </div>
       `;
 
-  section.insertAdjacentHTML("afterbegin", popupHtml);
-  overlay.classList.remove("hidden");
+	section.insertAdjacentHTML("afterbegin", popupHtml);
+	overlay.classList.remove("hidden");
 
-  const closePopupIcon = document.querySelector(".popup__exit");
-  const popup = document.querySelector(".popup");
-  const body = document.querySelector("body");
+	const closePopupIcon = document.querySelector(".popup__exit");
+	const popup = document.querySelector(".popup");
+	const body = document.querySelector("body");
 
-  body.classList.add("popup-open");
+	body.classList.add("popup-open");
 
-  closePopupIcon.addEventListener("click", () => {
-    popup.classList.add("hidden");
-    overlay.classList.add("hidden");
-    body.classList.remove("popup-open");
-  });
+	closePopupIcon.addEventListener("click", () => {
+		popup.classList.add("hidden");
+		overlay.classList.add("hidden");
+		body.classList.remove("popup-open");
+	});
 }
 
 function createCard() {
-  const cardContainer = document.querySelector(".works-card");
-  for (let index = projects.length - 1; index >= 0; index -= 1) {
-    const project = projects[index];
-    const technologiesList = project.technologies
-      .map((tech) => `<li class="tag-description">${tech}</li>`)
-      .join("");
+	const cardContainer = document.querySelector(".works-card");
+	for (let index = projects.length - 1; index >= 0; index -= 1) {
+		const project = projects[index];
+		const technologiesList = project.technologies
+			.map((tech) => `<li class="tag-description">${tech}</li>`)
+			.join("");
 
-    const card = `
+		const card = `
       <li class="grid-container grid-container-desktop">
       <div class="card-container" id="card-${index}" data-aos="fade-right">
                   
@@ -168,17 +168,17 @@ function createCard() {
                              </div>
                              </div>
                         </li>`;
-    cardContainer.insertAdjacentHTML("afterbegin", card);
-  }
+		cardContainer.insertAdjacentHTML("afterbegin", card);
+	}
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  createCard();
-  document
-    .querySelectorAll(".card-container .project-btn")
-    .forEach((btn, index) => {
-      btn.addEventListener("click", () => {
-        openPopup(index);
-      });
-    });
+	createCard();
+	document
+		.querySelectorAll(".card-container .project-btn")
+		.forEach((btn, index) => {
+			btn.addEventListener("click", () => {
+				openPopup(index);
+			});
+		});
 });
