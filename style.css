@@ -151,19 +151,6 @@ body {
   padding-left: 0%;
 }
 
-// .Perso {
-//   width: 200px;
-//   height: 150px;
-//   font-family: "Poppins", sans-serif;
-//   font-size: 100px;
-//   font-weight: 700px;
-//   line-height: 52px;
-//   margin: 2rem 2rem;
-//   letter-spacing: 0.37px;
-//   padding: 1rem 2rem 3rem 1rem;
-//   color: #421d09;
-// }
-
 .Perso {
   font-family: "Poppins", sans-serif;
   font-size: 40px;
@@ -411,7 +398,6 @@ button {
 
 .About-container {
   display: grid;
-  // grid-template-columns: auto auto;
   max-width: 800px;
   margin: auto;
   align-items: center;
