@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  padding: 0rem;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -163,7 +163,7 @@ body {
 
 .section-hero {
   height: auto;
-  padding: 0rem 2rem 1rem 2rem;
+  padding: 0 2rem 1rem 2rem;
   background-color: #e5e5e5;
   margin: auto;
 }
@@ -177,7 +177,7 @@ body {
   color: #344563;
   text-align: justify;
   margin: 1rem 2rem 1rem 1rem;
-  padding: 10rem 3rem 1rem 0rem;
+  padding: 10rem 3rem 1rem 0;
 }
 
 .connect {
@@ -642,7 +642,7 @@ button {
     line-height: 24px;
     color: #0e0e0e;
     margin: 1rem 2rem 1rem 1rem;
-    padding: 1rem 3rem 1rem 0rem;
+    padding: 1rem 3rem 1rem 0;
   }
 
   .box,
@@ -662,14 +662,6 @@ button {
   .overlay li {
     flex-direction: row;
     align-items: start;
-  }
-
-  .overlay ul {
-    margin: 10rem 2rem;
-    padding: 3px;
-  }
-
-  .overlay li {
     list-style: none;
   }
 
@@ -692,6 +684,7 @@ button {
     width: 100%;
     list-style-type: none;
     color: white;
+    margin: 10rem 2rem;
   }
 
   .overlay li a:hover {
@@ -722,7 +715,6 @@ button {
 html {
   /* 62.5% of 16px = 10px */
   font-size: 50%;
-  // scroll-behavior: smooth;
 }
 
 .header-active {
@@ -1099,7 +1091,6 @@ html {
 }
 
 .languages {
-  // position: absolute;
   height: 24px;
   left: 12px;
   right: 78px;
@@ -1115,9 +1106,7 @@ html {
 }
 
 .skills {
-  // display: flex;
   flex-wrap: wrap;
-  // width: 100%;
   min-height: 54px;
   padding-left: 24px;
   padding-right: 35px;

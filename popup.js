@@ -21,6 +21,7 @@ const projects = [
     client: "Uber",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+
     image: "./img/Snapshoot_Portfolio_2.png",
     technologies: ["HTML", "CSS", "JavaScript"],
     liveLink: "https://example.com",
