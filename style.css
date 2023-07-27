@@ -1283,7 +1283,6 @@ html {
     height: 0.4rem;
   }
 
-  /* Works & Project */
   .desktop-about-skills {
     display: grid;
     grid-template-rows: auto auto;
@@ -1365,7 +1364,6 @@ html {
     margin-left: 20px;
   }
 
-  /* Skills */
   .about-self {
     width: 5rem;
     margin-right: 3rem;
