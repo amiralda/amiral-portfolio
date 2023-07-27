@@ -60,15 +60,18 @@ To get a local copy up and running, follow these steps, clone from the repo
 
 ### Prerequisites
 
-No prerequit require to run this project.
+- Will need to have skills in HTML, CSS and a entry level in Javascript to collaborate on this project.
 
 ### Setup
 
-N/A
+- To run this project you will need to setup a work enviroment with any IDe or code editor, but VS Code is recomended.
+- Have a internet browser install on you computer, chrome is recomended.
+- You need a good internet connection
 
 ### Install
 
-Do not have file to Install on this project.
+- Do not have file to Install on this project to run it.
+- But will need to install all required in the setup.
 
 ### Usage
 
@@ -76,7 +79,7 @@ N/A
 
 ### Run tests
 
-N/A
+- No test need or is able to run on this project.
 
 ### Deployment
  
@@ -100,8 +103,6 @@ This is the link to my preoject preview host on Github pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- **Javascript**
 - **images**
 - **aminations**
 
@@ -113,12 +114,6 @@ This is the link to my preoject preview host on Github pages.
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
-
-
-👤 **Contributer Glauber Bannwart**
-
-- GitHub: [@cancelei](https://github.com/cancelei)
-
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
