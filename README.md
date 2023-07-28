@@ -116,11 +116,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 
-👤 **Contributer Tatou Roberto**
-
-- GitHub: [@tatouroberto](https://github.com/tatouroberto)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
