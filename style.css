@@ -700,8 +700,5 @@ textarea {
     display: none;
   }
 
-  .About-container {
-    display: grid;
-    grid-template-columns: auto;
-  }
+  
 }
