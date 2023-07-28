@@ -699,9 +699,8 @@ textarea {
   .navbar-links li .navbar-links li a .navbar-links.active {
     display: none;
   }
-}
-
   .About-container {
     display: grid;
     grid-template-columns: auto;
   }
+}
