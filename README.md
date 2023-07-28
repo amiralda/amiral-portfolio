@@ -26,13 +26,13 @@
 
 **[hello-microverse]** is a non-complexe coding project, just to master linters, github repo, basic html and css.
 
-## 🛠 Built With <a name="html+css"></a>
+### Tech Stack <a name="html+css+"></a>
 
-### Tech Stack <a name="html+css"></a>
+### Tech Stack <a name="html+css+"></a>
 
 
 <details>
-  <summary>HTML + CSS</summary>
+  <summary>HTML + CSS + JS</summary>
 </details>
 
 ### Key Features <a name="key-features"></a>
